@@ -344,7 +344,7 @@ elif choice == '01 - Sentiment analysis':
     st.write("#### 3. Xây dựng mô hình và đánh giá")
     st.write("""Tác giả sử dụng 06 mô hình gồm: Navie Bayes, KNN, Logistic regression, Decision tree, Random forest, Ada boost.\n Để đánh giá hiệu quả của 06 mô hình trên, tác giả đã thực hiện đo lường thời gian và sử dụng cross validation tính điểm accuracy trung bình.\n Kết quả như các ảnh sau:""")
     st.image("anh_slide_v7/v7_sent_01.png",caption='')
-    st.image("anh_slide_v7/v7_sent_02.png")
+    st.image("anh_slide_v7/v7_sent_02.PNG")
     st.write('Chi tiết cụ thể như sau:')
     st.write('-------------------------------------------------------------')
     st.write('##### Naive Bayes')
