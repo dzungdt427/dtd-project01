@@ -336,7 +336,7 @@ elif choice == '01 - Sentiment analysis':
 - Phần 2: Sử dụng cho việc dự đoán mô hình. Đây là phần dữ liệu có mâu thuẫn theo nhận xét trên.""")
 
     st.write("##### 2.2. Biến output")
-    st.write('''Biến output = sentiment, được quy đổi từ Rating như sau:\n- Rating <0 ==> sentiment = 0\n- Rating =3 ==> sentiment = 1\n- Rating >3 ==> sentiment = 2''')
+    st.write('''Biến output = sentiment, được quy đổi từ Rating như sau:\n- Rating < 3 ==> sentiment = 0\n- Rating = 3 ==> sentiment = 1\n- Rating > 3 ==> sentiment = 2''')
     st.image('anh_slide_v7/v7_output.png')
     st.write("Tương tự như biến input, biến output cũng được chia làm 2 phần tương ứng.")
     
